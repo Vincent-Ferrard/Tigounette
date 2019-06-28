@@ -1,13 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Component} from 'react';
-import {StyleSheet, View, Text, Image, Button} from 'react-native';
+import {StyleSheet, View, Text, Image} from 'react-native';
 
 
 class NFC extends Component {
@@ -18,7 +10,7 @@ class NFC extends Component {
                   <Image style={styles.NFC} source={require('../assets/Logo-NFC.png')} style={{width:300, height:300}}/>
                   <Text style={styles.NFC}>Présentez la carte étudiant</Text>
               </View>
-        </View>
+            </View>
         );
     }
 }

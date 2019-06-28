@@ -8,12 +8,20 @@
   },
   "dependencies": {
     "@eva-design/eva": "^1.0.0",
+    "@feathersjs/authentication-client": "^1.0.11",
+    "@feathersjs/feathers": "^3.3.1",
+    "@feathersjs/socketio-client": "^1.2.1",
     "react": "16.8.3",
     "react-native": "0.59.9",
     "react-native-azure-ad": "^0.2.4",
     "react-native-azure-ad-2": "^1.0.5",
     "react-native-azure-auth": "^1.1.1",
-    "react-native-ui-kitten": "^4.0.3"
+    "react-native-gesture": "^0.2.0",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-ui-kitten": "^4.0.3",
+    "react-native-webview": "^5.12.0",
+    "react-navigation": "^3.11.0",
+    "socket.io-client": "^2.2.0"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",

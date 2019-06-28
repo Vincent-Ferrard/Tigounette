@@ -6,17 +6,18 @@
  * @flow
  */
 
-import {createDrawerNavigator, createAppContainer} from 'react-navigation';
+import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
+import NFC from '../Components/NFC';
+import Tig from '../Components/Tig';
+import Test from '../Components/Test';
+import Web from '../Components/Web';
 
-import Home from '../Components/Home';
-
-const MainNavigator = createDrawerNavigator({
-  Home: {
-        navigationOptions: {
-            drawerLabel: "Home"
-        },
-        screen: Home,
-    },
+const TabNavigator = createBottomTabNavigator({
+    Tig: NFC,
+    BigTest: Tig,
+    Historique: Test,
+    Settings: Test,
+    Web: Web,
 });
 
-export default createAppContainer(MainNavigator);
+export default createAppContainer(TabNavigator);
