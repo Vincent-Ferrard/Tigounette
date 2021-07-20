@@ -12,7 +12,7 @@
     "@feathersjs/feathers": "^3.3.1",
     "@feathersjs/socketio-client": "^1.2.1",
     "react": "16.8.3",
-    "react-native": "0.59.9",
+    "react-native": "0.62.3",
     "react-native-azure-ad": "^0.2.4",
     "react-native-azure-ad-2": "^1.0.5",
     "react-native-azure-auth": "^1.1.1",
